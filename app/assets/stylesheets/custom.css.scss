@@ -45,12 +45,33 @@ $navbar-default-bg: #073B15;
   text-decoration: none;
 }
 
-.sticky-footer {
-    height: 30px;
-    bottom: 0;
-    width: 100%;
-    background-color: black;
-    text-align: center;
-    color: #FFFFFF;
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #777;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
+footer a {
+  color: #555;
+}
+
+footer a:hover {
+  color: #222;
+}
+
+footer small {
+  float: left;
+}
+
+footer ul {
+  float: right;
+  list-style: none;
+}
+
+footer ul li {
+  float: left;
+  margin-left: 15px;
+}
